@@ -14,6 +14,74 @@ body {
 
 }
 
+.fade
+{
+  position: fixed;
+  z-index: 999;
+  bottom: 3vh;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  
+
+
+}
+
+
+#tar
+{
+  transition: ease;
+  animation: arrow 2s ease-out infinite ;
+}
+
+#bar
+{
+  transition: ease;
+  animation: arrows 2s ease-out infinite;
+}
+
+@keyframes arrow {
+
+  0%
+  {
+    opacity: 0.5;
+  }
+
+  70%
+  {
+    
+    opacity: 1;
+  }
+
+  100%
+  {
+    opacity: 0.5;
+  }
+  
+}
+@keyframes arrows {
+
+  0%
+  {
+    opacity: 1;
+  }
+
+  50%
+  {
+    
+    opacity: 0;
+  }
+
+  100%
+  {
+    opacity: 0.5;
+  }
+  
+}
+
 #scrol
 {
   border: none;
