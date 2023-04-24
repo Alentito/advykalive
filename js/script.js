@@ -63,7 +63,7 @@ rgbKineticSlider = new rgbKineticSlider({
 
   textTitleColor: "#fff", // title color
   textTitleSize: 80, // title size
-  mobileTextTitleSize: 20, // title size
+  mobileTextTitleSize: 40, // title size
   textTitleLetterspacing: 3, // title letterspacing
 
   textSubTitleColor: "white", // subtitle color ex : 0x000000
