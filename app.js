@@ -48,6 +48,26 @@ gsap.to(ball, {
   onUpdate: render,
 });
 
+
+gsap.fromTo(
+  ".fade",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    scrollTrigger: {
+      scrub: 1,
+
+      start: "65%",
+      end: "66%",
+    },
+    onComplete: () => {
+      gsap.to(".fade", { opacity: 0 });
+    },
+  }
+);
+
 gsap.fromTo(
   ".ball-text",
   {
