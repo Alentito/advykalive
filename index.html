@@ -49,12 +49,12 @@
 
 
       <div class="leftp">
-        <a id="scrol" onclick="scrollToSection(2000)"  href="#mycanvas"><img alt="logo" src="logo.png"></a>
+        <a id="scrol" onclick="scrollToSection(2000)"><img alt="logo" src="logo.png"></a>
 
       </div>
 <script>
         function scrollToSection(duration) {
-  const section = document.getElementById('mycanvas');
+  const section = document.getElementById('can');
   const sectionPosition = section.getBoundingClientRect().top;
   const startPosition = window.pageYOffset;
   const distance = sectionPosition - startPosition;
