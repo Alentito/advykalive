@@ -395,7 +395,7 @@ canvas {
   overflow: hidden;
 }
 
-.can {
+#can {
   width: 70%;
   height: 70vh;
   position: absolute;
