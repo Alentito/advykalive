@@ -120,6 +120,20 @@
     <div class="top">
       <h2 class="ball-text">EMINENCE OF ECSTACY</h2>
       <canvas class="canvas"></canvas>
+       <div class="txtmorph">
+        <h1 id="adk">Advyka'23</h1>
+        <svg id="filters">
+          <defs>
+            <filter id="threshold">
+              <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+            </filter>
+          </defs>
+        </svg>
+      </div>
     </div>
     <div id="details">
 
