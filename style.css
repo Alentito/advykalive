@@ -19,7 +19,7 @@ body {
   position: fixed;
   z-index: 999;
   bottom: 3vh;
-  left: 50%;
+  width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
