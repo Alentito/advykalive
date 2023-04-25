@@ -615,6 +615,32 @@ nav a.prev {
 
 @media only screen and (max-width: 600px) {
   
+  .pro_title
+  {
+    width: 100%;
+    text-align: center;
+  position: absolute;
+  top: 210vh;
+  font-size: 40pt;
+  font-family: ELNATH;
+  color: white;
+  z-index: 886;
+  }
+
+
+  #blkm
+  {
+    height: 639px;
+  }
+
+  .middle
+{
+  position: absolute;
+  z-index: 857;
+  top: 165vh;
+}
+
+  
   .tp {
     position: fixed;
     display: flex;
