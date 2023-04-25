@@ -503,6 +503,7 @@ canvas {
 
 .ball-text {
   position: fixed;
+   font-family: ELNATH;
   z-index: 2;
   color: white;
   font-size: 2rem;
