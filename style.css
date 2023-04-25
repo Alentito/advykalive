@@ -64,15 +64,24 @@ z-index: 886;
 
 }
 
-
+#ms
+{
+  stroke:#D9D9D9;
+}
+#m
+{
+  fill: #D9D9D9;
+}
 #tar
 {
+  fill: #D9D9D9;
   transition: ease;
   animation: arrow 2s ease-out infinite ;
 }
 
 #bar
 {
+  fill: #D9D9D9;
   transition: ease;
   animation: arrows 2s ease-out infinite;
 }
@@ -622,6 +631,12 @@ nav a.prev {
 
 
 @media only screen and (max-width: 600px) {
+  
+   #ms,#m
+  {
+    fill: none;
+    stroke: none;
+  }
   
   .pro_title
   {
