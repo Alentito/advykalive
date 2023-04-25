@@ -352,7 +352,8 @@
 
                             function onClick() {
                                 // do something on click
-                            }
+                                window.location.href="https://alentito.github.io/advykalive/events/events.html";
+                                }
                         }
                     }
 
