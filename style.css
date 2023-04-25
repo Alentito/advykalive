@@ -229,7 +229,7 @@ z-index: 886;
   justify-content: space-between;
   width: 100%;
   height: 80px;
-  z-index: 20;
+  z-index: 895;
 
 }
 
@@ -647,7 +647,7 @@ nav a.prev {
     justify-content: space-between;
     width: 100%;
     height: 60px;
-    z-index: 20;
+    z-index: 895;
   }
   
   
