@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+    <div id="loader">
+
+
+        <div class="center">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+
+
+    </div>
+    <script>
+        window.addEventListener('load', function () {
+            var loader = document.getElementById('loader');
+            setTimeout(function () {
+                loader.style.display = 'none';
+            }, 2000);
+        });
+
+    </script>
+
+    <div class="container">
+        <nav class="tp">
+
+
+            <div class="leftp">
+                <img alt="logo" src="../logo.png">
+            </div>
+
+            <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="toggleMenu()">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+
+
+
+            <div id="menu-panel">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="events/events.html">Events</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+
+
+        </nav>
+        <div class="box">
+            <div class="top"></div>
+            <div class="middle">
+                <button class="tab" data-category="all">All</button>
+                <button class="tab" data-category="proshow">Pro-Show</button>
+                <button class="tab" data-category="me">ME</button>
+                <button class="tab" data-category="cs">CS</button>
+                <button class="tab" data-category="ec">EC</button>
+                <button class="tab" data-category="eee">EEE</button>
+                <button class="tab" data-category="technology">Technology</button>
+            </div>
+            <div class="card_container">
+
+                <div class="out_card" data-category="cs">
+
+                    <div class="card">
+                        <img alt="" class="for" src="1.jpg">
+                        <h1>Flutter<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="cs">
+
+                    <div class="card">
+                        <img alt="" class="for" src="2.jpg">
+                        <h1>Chatbot<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="cs">
+
+                    <div class="card">
+                        <img alt="" class="for" src="3.jpg">
+                        <h1>Data Scraping<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="cs">
+
+                    <div class="card">
+                        <img alt="" class="for" src="4.jpg">
+                        <h1>Respawn<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="cs">
+
+                    <div class="card">
+                        <img alt="" class="for" src="5.jpg">
+                        <h1>Football<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="proshow">
+
+                    <div class="card">
+                        <img alt="" class="for" src="pro1.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="proshow">
+
+                    <div class="card">
+                        <img alt="" class="for" src="pro2.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="proshow">
+
+                    <div class="card">
+                        <img alt="" class="for" src="pro3.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec1.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec2.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec3.png">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec4.png">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec5.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec6.png">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec7.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec8.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec9.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec10.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec11.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec12.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec13.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec14.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec15.png">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec16.png">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec17.png">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+                <div class="out_card" data-category="ec">
+
+                    <div class="card">
+                        <img alt="" class="for" src="ec18.jpg">
+                        <h1>Gaming Events<a href="hlo.html">Register Now</a></h1>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const buttons = document.querySelectorAll('.tab');
+        const cards = document.querySelectorAll('.out_card');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                //button.classList.add('clicked');
+
+                buttons.forEach(b => b.classList.remove('active'));
+
+                // Add the 'active' class to the clicked button
+                button.classList.add('active');
+
+                const category = button.dataset.category;
+                cards.forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="js.js"></script>
+
+</body>
+
+</html>
