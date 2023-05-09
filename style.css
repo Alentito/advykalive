@@ -18,6 +18,84 @@ body {
 
 }
 
+
+.stxt
+{
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 3vh;
+  font-size: 20pt;
+padding: 6px;
+z-index: 3999;}
+
+.scon
+{
+  height: 16vh;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 10px;
+  row-gap:10px;
+  padding: 20px;
+  z-index: 2999;
+}
+
+.spon
+{
+  position: absolute;
+  top:300vh ;
+  height: 19vh;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  row-gap: 5px;
+  background-color: rgb(7, 7, 7);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  z-index: 299;
+}
+
+.for
+{
+    height: 14vh;
+    z-index: 2;
+    transition: 0.5s ease-in;
+    opacity: 1;
+
+    
+}
+
+.container {
+  width: 100%;
+  height: 340vh;
+  background-color: black;
+
+}
+
+.footer {
+
+  margin: 1vh 1%;
+  border-radius: 20px;
+  position: absolute;
+  top: 320vh;
+  width: 98%;
+  height: 18vh;
+  z-index: 50;
+  background-color: rgb(7, 7, 7);
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .footer a
 {
   height: 18vh;
@@ -265,19 +343,7 @@ z-index: 886;
 }
 
 
-.footer {
 
-  margin: 1vh 1%;
-  border-radius: 20px;
-  position: absolute;
-  top: 300vh;
-  width: 98%;
-  height: 18vh;
-  z-index: 50;
-  background-color: rgb(7, 7, 7);
-  display: flex;
-  justify-content: space-evenly;
-}
 
 .footer img {
   width: 80px;
@@ -483,12 +549,6 @@ canvas {
   object-fit: cover;
 }
 
-.container {
-  width: 100%;
-  height: 320vh;
-  background-color: black;
-
-}
 
 
 
